@@ -1,6 +1,3 @@
-
-<script src="js/js.js"></script>
-<script>
 // Service Worker - Caching
 if ('serviceWorker' in navigator){
     window.addEventListener('load', () => {
@@ -10,6 +7,3 @@ if ('serviceWorker' in navigator){
         .catch(err => console.log(`Service Worker: Error: ${err}`));
     })
 };
-
-</script>
-</body>

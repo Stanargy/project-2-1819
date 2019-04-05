@@ -1,7 +1,6 @@
 (function () {
 
     // declare constants
-    const express = require('express');
     const path = require('path');
     const express = require('express');
     const router = require('./router/router')
