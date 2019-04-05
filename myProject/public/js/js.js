@@ -8,6 +8,8 @@
     let h2 = document.querySelectorAll('h2');
     let unnestedTXT = document.querySelector('body')
 
+
+
     // unnestedTXT.contents().filter(function(){ 
     //     return this.nodeType == 3; 
     //   })[0].nodeValue = "The text you want to replace with"
@@ -76,6 +78,36 @@ for(let i; i<img.length; i++){
     newArticle[i].appendChild(img[i], p[i], h4[i])
     //img.parentNode.createElement('article').innerHTML.appendChild(img, p, h4)
 }
+
+
+// let counter = 0;
+// let counter2 = 0
+
+// const allElements = Array.from(document.querySelector('.mya').children);
+// console.log(allElements)
+
+// allElements.forEach((element, index) =>{
+//     counter = counter + 2;
+//     console.log(counter, index)
+//     if(index <= counter){
+//         let newDiv = document.createElement('div');
+//         newDiv.classList.add('test')
+//         document.querySelector('.mya').appendChild(newDiv)
+
+//     }
+
+// })
+
+
+// child.forEach((child,index)=>{
+// 	const div = document.createElement('div')
+// 	counter2 += 2
+// 	if(index<=counter){
+// 		div.appendChild(child)
+// 		allElements.appendChild(div)
+// 	}
+// })
+
 
 
 // Add Lazy Loading for images // not working yet

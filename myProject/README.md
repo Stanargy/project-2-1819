@@ -9,6 +9,8 @@ Background:
 Core Features of this project:
 - This project is an enhanced version of the mentioned url-endpoints. It improves on it's predecessor by increasing performance and accessibility features.
 
+The following images represent the audits of the original site, followed by the audit of the project:
+
 ![Metrics of the original site](https://github.com/Stanargy/project-2-1819/blob/master/myProject/public/assets/metrics1.JPG "Metrics of the original site")
 
 ![Metrics of the project](https://github.com/Stanargy/project-2-1819/blob/master/myProject/public/assets/metrics2.JPG "Metrics of the project")
